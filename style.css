@@ -1,13 +1,13 @@
 /*
-BG: #171930
-MAIN: #98cded
-MAIN DARKER: #75799e
-BG LIGHT: #444878
+BG: #1d2040
+MAIN: #a8ddff
+MAIN DARKER: #8b90c8
+BG LIGHT: #5257a3
 */
 
 body {
     color: #ffffff;
-    background-color: #171930;
+    background-color: #1d2040;
     font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
     font-size: 19px;
     line-height: 1.6;
@@ -23,28 +23,28 @@ main {
 }
 
 h1 {
-    color: #98cded;
+    color: #a8ddff;
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 0.6em;
 }
 
 h2 {
-    color: #98cded;
+    color: #a8ddff;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 0.5em;
 }
 
 h3 {
-    color: #98cded;
+    color: #a8ddff;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 0.4em;
 }
 
 a {
-    color: #98cded;
+    color: #a8ddff;
     text-decoration: none;
 }
 
@@ -53,13 +53,11 @@ a:hover {
 }
 
 header {
-    background-color: #171930;
-    overflow: auto;
-    height: auto;
+    background-color: #1d2040;
 }
 
 footer {
-    background-color: #444878;
+    background-color: #5257a3;
     color: #ffffff;
     font-size: 0.85rem;
     margin-left: -64px;
@@ -67,6 +65,6 @@ footer {
     text-align: center;
     margin-top: auto;
     padding: 12px 0;
-    box-shadow: 0 50vh 0 50vh #444878;
+    box-shadow: 0 50vh 0 50vh #5257a3;
 }
 

@@ -8,44 +8,65 @@ BG LIGHT: #444878
 body {
     color: #ffffff;
     background-color: #171930;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 17px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+    margin-left: 64px;
+    margin-right: 64px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
 main {
     flex: 1;
 }
+
 h1 {
     color: #98cded;
-    font-size: 34px;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 0.6em;
 }
+
 h2 {
     color: #98cded;
-	font-size: 26px;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
 }
+
 h3 {
     color: #98cded;
-	font-size: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0.4em;
 }
+
 a {
     color: #98cded;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
-    background-color:#171930;
+    background-color: #171930;
     overflow: auto;
     height: auto;
 }
+
 footer {
     background-color: #444878;
     color: #ffffff;
-    font-size: small;
-    margin-left: -50px;
-    margin-right: -50px;
+    font-size: 0.85rem;
+    margin-left: -64px;
+    margin-right: -64px;
     text-align: center;
     margin-top: auto;
+    padding: 12px 0;
     box-shadow: 0 50vh 0 50vh #444878;
 }
+

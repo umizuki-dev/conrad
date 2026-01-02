@@ -1,50 +1,68 @@
 /*
-BG: #1d2040
-MAIN: #a8ddff
-MAIN DARKER: #8b90c8
-BG LIGHT: #5257a3
+BG: #171930
+MAIN: #98cded
+MAIN DARKER: #75799e
+BG LIGHT: #444878
 */
 
 body {
     color: #ffffff;
-    background-color: #1d2040;
-    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
-    font-size: 19px;
+    background-color: #171930;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", "Trebuchet MS", sans-serif;
+    font-size: 17px;
     line-height: 1.6;
-    margin-left: 64px;
-    margin-right: 64px;
+
+    margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+header,
+main,
+footer {
+    width: 100%;
+}
+
 main {
     flex: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 3rem 1.25rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1.25rem 0;
+}
+
+h1, h2, h3 {
+    color: #98cded;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
-    color: #a8ddff;
-    font-size: 38px;
-    font-weight: 600;
-    margin-bottom: 0.6em;
+    font-size: 34px;
 }
 
 h2 {
-    color: #a8ddff;
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 0.5em;
+    font-size: 26px;
 }
 
 h3 {
-    color: #a8ddff;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 0.4em;
+    font-size: 20px;
+}
+
+p {
+    margin: 1rem 0;
 }
 
 a {
-    color: #a8ddff;
+    color: #98cded;
     text-decoration: none;
 }
 
@@ -52,19 +70,11 @@ a:hover {
     text-decoration: underline;
 }
 
-header {
-    background-color: #1d2040;
-}
-
 footer {
-    background-color: #5257a3;
+    background-color: #444878;
     color: #ffffff;
     font-size: 0.85rem;
-    margin-left: -64px;
-    margin-right: -64px;
     text-align: center;
-    margin-top: auto;
-    padding: 12px 0;
-    box-shadow: 0 50vh 0 50vh #5257a3;
+    padding: 1.5rem 1.25rem;
 }
 
